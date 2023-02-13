@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Belajar Table</title>
+</head>
+<body>
+    <h1>Belajar Table</h1>
+
+    <table style="border: 1px solid black;">
+        <colgroup>
+            <col span="2" style="background-color: yellow;">
+            <col style="background-color: aqua;">
+        </colgroup>
+        <thead>
+            <tr>
+                <th colspan="2">Nama</th>
+                <th>Nilai</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Eko</td>
+                <td>Khannedy</td>
+                <td>80</td>
+            </tr>
+            <tr>
+                <td>Budi</td>
+                <td>Nugraha</td>
+                <td>90</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td rowspan="2">Total</td>
+                <td>Total</td>
+                <td>170</td>
+            </tr>
+            <tr>
+                <td>Rata Rata</td>
+                <td>85</td>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+</html>
